@@ -67,6 +67,38 @@ print("\n")
 
 #zadanie 9
 
+słownik={
+    "imie":"Filip",
+    "Nazwisko":"Warpechowski",
+    "index":"123456"
+}
+print(słownik)
+słownik["wiek"]="21"
+słownik["email"]="ziritto@gmail.com"
+słownik["rok urodzenia"]="1999"
+słownik["adres"]="Jana Pawła 2/31"
+print(słownik)
+print("\n")
+
+#zadanie 10
+numery = ["111222333","444555666","777888999","123456789","987654321","111222333"]
+print(numery)
+bez_powtorzen=set(numery)
+print(bez_powtorzen)
+print("\n")
+
+#zadanie 11
+for i in range(1,11):
+    print(i)
+print("\n")
+
+#zadanie 12
+for i in range(100,19,-5):
+    print(i)
+print("\n")
+#zadanie 13
+
+
 
 
 
